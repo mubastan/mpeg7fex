@@ -1,0 +1,385 @@
+# depslib dependency file v1.0
+1066979596 source:/home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/address.c
+	"address.h"
+
+1258194478 /home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/address.h
+
+1258453312 source:/home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/inter.c
+	<stdio.h>
+	<math.h>
+	"vopio.h"
+	"nhood.h"
+	"inter.h"
+	"evaladdr.h"
+	"eval.h"
+	"pptrace.h"
+
+1258453178 /home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/vopio.h
+	"momusys.h"
+	"address.h"
+
+1276349464 /home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/momusys.h
+
+1258564712 /home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/nhood.h
+	"momusys.h"
+	"address.h"
+
+1258453138 /home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/inter.h
+	"momusys.h"
+	"address.h"
+
+1258453324 source:/home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/intra.c
+	<stdio.h>
+	"vopio.h"
+	"intra.h"
+	"evaladdr.h"
+	"eval.h"
+	"pptrace.h"
+
+1258453338 /home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/intra.h
+	"momusys.h"
+	"address.h"
+	"nhood.h"
+
+1216489722 source:/home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/nhood.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"nhood.h"
+	"vopio.h"
+
+1258565136 source:/home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/vopio.c
+	<stdio.h>
+	<errno.h>
+	<stdlib.h>
+	<string.h>
+	"momusys.h"
+	"vopio.h"
+
+1302632778 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Convert.cpp
+	<iostream>
+	"Convert.h"
+
+1296682636 /home/bastan/research/code/sandbox/MPEG7FexLib/Convert.h
+	<opencv2/core/core.hpp>
+	"AddressLib/vopio.h"
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/core.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/version.hpp"
+	<limits.h>
+	<algorithm>
+	<cmath>
+	<cstddef>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	"opencv2/core/operations.hpp"
+	"opencv2/core/mat.hpp"
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+	"tegra_round.hpp"
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/version.hpp
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/operations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	<windows.h>
+	<limits>
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/mat.hpp
+	<limits.h>
+	<string.h>
+
+1278591824 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorLayout.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cmath>
+	<vector>
+	"ColorLayout.h"
+
+1278591824 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorLayout.h
+
+1276334474 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorQuant.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	"ColorQuant.h"
+
+1258127560 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorQuant.h
+
+1258127146 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorSpace.cpp
+	<stdio.h>
+	"ColorSpace.h"
+
+1258127092 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorSpace.h
+
+1277487402 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorStructure.cpp
+	<cstdio>
+	<cstring>
+	<cassert>
+	<cstdlib>
+	"ColorStructure.h"
+
+1277487270 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorStructure.h
+
+1276334442 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ContourShape.cpp
+	<cstdio>
+	<cstring>
+	"ContourShape.h"
+
+1258190806 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ContourShape.h
+
+1276334432 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/DominantColor.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cmath>
+	<vector>
+	<iostream>
+	"DominantColor.h"
+	<iostream>
+
+1258135192 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/DominantColor.h
+	"ColorSpace.h"
+	"ColorQuant.h"
+
+1278603954 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/EdgeHist.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	"EdgeHist.h"
+
+1278603858 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/EdgeHist.h
+
+1276334406 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/FaceRecognition.cpp
+	"FaceRecognition.h"
+	<cstring>
+
+1260125160 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/FaceRecognition.h
+
+1278603976 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/HomoTexture.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	"HomoTexture.h"
+
+1277557804 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/HomoTexture.h
+
+1276334530 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/RegionShape.cpp
+	<cstdio>
+	<string>
+	"RegionShape.h"
+
+1258195370 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/RegionShape.h
+
+1279210298 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ScalableColor.cpp
+	<vector>
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	"ScalableColor.h"
+
+1279210098 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ScalableColor.h
+
+1276334366 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ColorLayoutExtraction.cpp
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<cstring>
+	<cfloat>
+	"Descriptors/ColorLayout.h"
+	"ColorLayoutExtraction.h"
+
+1258453380 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ColorLayoutExtraction.h
+	"AddressLib/vopio.h"
+	"Descriptors/ColorLayout.h"
+
+1258453398 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ColorSpaceExtraction.cpp
+	<stdio.h>
+	"AddressLib/vopio.h"
+	"Descriptors/ColorSpace.h"
+	"ColorSpaceExtraction.h"
+
+1258453410 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ColorSpaceExtraction.h
+	"AddressLib/vopio.h"
+
+1276334338 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ColorStructureExtraction.cpp
+	<cassert>
+	<cstring>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	"AddressLib/momusys.h"
+	"Extraction/ColorStructureExtraction.h"
+
+1258453434 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ColorStructureExtraction.h
+	"Descriptors/ColorStructure.h"
+	"AddressLib/vopio.h"
+
+1276349054 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ContourShapeExtraction.cpp
+	<cmath>
+	<cstring>
+	<cstdlib>
+	"Descriptors/ContourShape.h"
+	"ContourShapeExtraction.h"
+
+1258453444 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ContourShapeExtraction.h
+	"AddressLib/vopio.h"
+
+1276334308 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/DominantColorExtraction.cpp
+	<cstdio>
+	<cmath>
+	<cstring>
+	<iostream>
+	<cfloat>
+	"imgutil.h"
+	"DominantColorExtraction.h"
+	"ColorSpaceExtraction.h"
+	"imgutil.h"
+
+1224917072 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/imgutil.h
+
+1258453450 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/DominantColorExtraction.h
+	"Descriptors/DominantColor.h"
+	"AddressLib/vopio.h"
+
+1276334200 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/EdgeHistExtraction.cpp
+	<cmath>
+	<cstring>
+	"Extraction/EdgeHistExtraction.h"
+
+1258453458 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/EdgeHistExtraction.h
+	"AddressLib/vopio.h"
+	"Descriptors/EdgeHist.h"
+
+1260127866 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/FaceRecognitionExtraction.cpp
+	<cmath>
+	"FaceRecognitionExtraction.h"
+	"EigenFaceData.h"
+
+1258453462 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/FaceRecognitionExtraction.h
+	"AddressLib/vopio.h"
+	"Descriptors/FaceRecognition.h"
+
+1236612022 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/EigenFaceData.h
+	"FaceRecognitionExtraction.h"
+
+1276334286 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/GoFGoPColorExtraction.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	"GoFGoPColorExtraction.h"
+
+1258453472 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/GoFGoPColorExtraction.h
+	"Descriptors/ScalableColor.h"
+	"ScalableColorExtraction.h"
+	"AddressLib/vopio.h"
+
+1258453466 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ScalableColorExtraction.h
+	"AddressLib/vopio.h"
+
+1276364632 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/HomoTextureExtraction.cpp
+	<stdio.h>
+	"Extraction/HomoTextureExtraction.h"
+	"Extraction/homo_texture_extractor.h"
+
+1276361578 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/HomoTextureExtraction.h
+	"AddressLib/vopio.h"
+	"Descriptors/HomoTexture.h"
+
+1276364502 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/homo_texture_extractor.h
+
+1276334514 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/RegionShapeExtraction.cpp
+	<cmath>
+	<iostream>
+	"Extraction/RegionShapeExtraction.h"
+
+1258453486 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/RegionShapeExtraction.h
+	"AddressLib/vopio.h"
+	"Descriptors/RegionShape.h"
+
+1258453538 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ScalableColorExtraction.cpp
+	<cmath>
+	<cstdlib>
+	"AddressLib/vopio.h"
+	"AddressLib/intra.h"
+	"Descriptors/ScalableColor.h"
+	"ScalableColorExtraction.h"
+	"ColorSpaceExtraction.h"
+
+1276364010 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/homo_texture_extractor.cpp
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"homo_texture_extractor.h"
+
+1258452942 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/imgutil.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"imgutil.h"
+
+1302633338 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Feature.cpp
+	<iostream>
+	"Feature.h"
+	"Convert.h"
+	"Extraction/ColorStructureExtraction.h"
+	"Extraction/DominantColorExtraction.h"
+	"Extraction/ColorLayoutExtraction.h"
+	"Extraction/ScalableColorExtraction.h"
+	"Extraction/GoFGoPColorExtraction.h"
+	"Extraction/EdgeHistExtraction.h"
+	"Extraction/HomoTextureExtraction.h"
+	"Extraction/ContourShapeExtraction.h"
+	"Extraction/RegionShapeExtraction.h"
+
+1296682548 /home/bastan/research/code/sandbox/MPEG7FexLib/Feature.h
+	<vector>
+	"Frame.h"
+	"Descriptors.h"
+	"Extraction/FaceRecognitionExtraction.h"
+	"Extraction/GoFGoPColorExtraction.h"
+
+1296682778 /home/bastan/research/code/sandbox/MPEG7FexLib/Frame.h
+	<opencv2/core/core.hpp>
+	"AddressLib/vopio.h"
+
+1302633318 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors.h
+	"Descriptors/ColorSpace.h"
+	"Descriptors/ColorQuant.h"
+	"Descriptors/ColorLayout.h"
+	"Descriptors/ColorStructure.h"
+	"Descriptors/DominantColor.h"
+	"Descriptors/ScalableColor.h"
+	"Descriptors/FaceRecognition.h"
+	"Descriptors/EdgeHist.h"
+	"Descriptors/HomoTexture.h"
+	"Descriptors/ContourShape.h"
+	"Descriptors/RegionShape.h"
+
+1296682822 source:/home/bastan/research/code/sandbox/MPEG7FexLib/Frame.cpp
+	<iostream>
+	"Convert.h"
+	"Frame.h"
+

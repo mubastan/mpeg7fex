@@ -1,0 +1,68 @@
+Not all files are included in the current package..
+mb - 18.11.2009
+---------------------------------------------------------------------
+This file is part of the AddressLib source code. The complete package
+is property of the TU-Munich, LIS.
+
+For further information please contact
+
+S_Herrmann@lis.e-technik.tu-muenchen.de
+
+Installation
+============
+
+To install the AddressLib on a Unix platform execute the following commands:
+
+1.> gunzip addlibsrc.tgz
+
+2.> tar xvf addlibsrc.tar
+
+3. select the desired architecture at the beginning of the "Makefile"
+
+4. Change the target directory for the AddressLib in the Makefile.
+   This is done by setting the variable "ADDRLIB" to the selected directory
+   If you like to use this package in combination with the original
+   header files from MoMuSys, set also the variable "MOMUSYS" to the
+   correct directory and proceed with 7.
+   If you like to use a simplified version of the MoMuSys data structure,
+   then do the following steps:
+
+5.> make incinstall
+
+6.> create a link from "mymomusys.h" in the $ADDRLIB/include directory
+    to "momusys.h" in the same directory
+    (6.> set wdir=`pwd`; cd <$ADDLIB>/include; ln -s mymomusys.h momusys.h; cd $wdir )
+
+7.> make
+
+8.> make install
+
+Usage
+=====
+
+The AddressLib is based on the data structure of the
+MoMuSys MPEG-4 Verification Model.
+The header files contain the descriptions of functions, and data types.
+
+- The Vop structure is defined in the MoMuSys header files.
+
+- The functions to access, malloc, and free data of the Vop type
+  are defined in the vopio module.
+
+- The AddressLib provides functions for inter, intra, and segment addressing
+  (see also: S.Herrmann,H.Mooshofer: "A Toolbox Approach for Image
+  Segmentation and Complexity Analysis", WIAMIS `97, Leuven-La-Neuve Jun. 97,
+  http://www.lis.e-technik.tu-muenchen.de/people/second_page/helit4.ps
+
+  and
+
+  http://www.lis.e-technik.tu-muenchen.de/research/bv/segm/lis-toolbox.html)
+
+  The functions are described in each header file: inter.h intra.h, fifo.h,
+  and lifo.h.
+
+  Common defines are also defined in address.h.
+
+  An example program will be provided in the near future.
+
+-- sh. 1999.07

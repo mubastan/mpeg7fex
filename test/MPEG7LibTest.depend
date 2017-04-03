@@ -1,0 +1,585 @@
+# depslib dependency file v1.0
+1266660042 source:/home/bastan/research/code/sandbox/MPEG7FexLib/test/FexWrite.cpp
+	<iostream>
+	"FexWrite.h"
+
+1266607904 /home/bastan/research/code/sandbox/MPEG7FexLib/test/FexWrite.h
+	"Feature.h"
+
+1296682548 /home/bastan/research/code/sandbox/MPEG7FexLib/Feature.h
+	<vector>
+	"Frame.h"
+	"Descriptors.h"
+	"Extraction/FaceRecognitionExtraction.h"
+	"Extraction/GoFGoPColorExtraction.h"
+
+1296682778 /home/bastan/research/code/sandbox/MPEG7FexLib/Frame.h
+	<opencv2/core/core.hpp>
+	"AddressLib/vopio.h"
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/core.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/version.hpp"
+	<limits.h>
+	<algorithm>
+	<cmath>
+	<cstddef>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	"opencv2/core/operations.hpp"
+	"opencv2/core/mat.hpp"
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+	"tegra_round.hpp"
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/version.hpp
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/operations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	<windows.h>
+	<limits>
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/mat.hpp
+	<limits.h>
+	<string.h>
+
+1258453178 /home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/vopio.h
+	"momusys.h"
+	"address.h"
+
+1276349464 /home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/momusys.h
+
+1258194478 /home/bastan/research/code/sandbox/MPEG7FexLib/AddressLib/address.h
+
+1302633318 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors.h
+	"Descriptors/ColorSpace.h"
+	"Descriptors/ColorQuant.h"
+	"Descriptors/ColorLayout.h"
+	"Descriptors/ColorStructure.h"
+	"Descriptors/DominantColor.h"
+	"Descriptors/ScalableColor.h"
+	"Descriptors/FaceRecognition.h"
+	"Descriptors/EdgeHist.h"
+	"Descriptors/HomoTexture.h"
+	"Descriptors/ContourShape.h"
+	"Descriptors/RegionShape.h"
+
+1258127092 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorSpace.h
+
+1258127560 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorQuant.h
+
+1278591824 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorLayout.h
+
+1277487270 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ColorStructure.h
+
+1258135192 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/DominantColor.h
+	"ColorSpace.h"
+	"ColorQuant.h"
+
+1279210098 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ScalableColor.h
+
+1260125160 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/FaceRecognition.h
+
+1278603858 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/EdgeHist.h
+
+1277557804 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/HomoTexture.h
+
+1258190806 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/ContourShape.h
+
+1258195370 /home/bastan/research/code/sandbox/MPEG7FexLib/Descriptors/RegionShape.h
+
+1258453462 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/FaceRecognitionExtraction.h
+	"AddressLib/vopio.h"
+	"Descriptors/FaceRecognition.h"
+
+1258453472 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/GoFGoPColorExtraction.h
+	"Descriptors/ScalableColor.h"
+	"ScalableColorExtraction.h"
+	"AddressLib/vopio.h"
+
+1258453466 /home/bastan/research/code/sandbox/MPEG7FexLib/Extraction/ScalableColorExtraction.h
+	"AddressLib/vopio.h"
+
+1296848088 source:/home/bastan/research/code/sandbox/MPEG7FexLib/test/main.cpp
+	<iostream>
+	"FexWrite.h"
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+
+1323347527 /home/bastan/research/libs/opencv/include/opencv2/highgui/highgui.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1323347527 /home/bastan/research/libs/opencv/include/opencv2/highgui/highgui_c.h
+	"opencv2/core/core_c.h"
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/core/core_c.h
+	"opencv2/core/types_c.h"
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/imgproc/imgproc.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/types_c.h"
+
+1323347528 /home/bastan/research/libs/opencv/include/opencv2/imgproc/types_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/types_c.h"
+
+1266660042 source:/home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1/test/FexWrite.cpp
+	<iostream>
+	"FexWrite.h"
+
+1266607904 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1/test/FexWrite.h
+	"Feature.h"
+
+1296682548 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Feature.h
+	<vector>
+	"Frame.h"
+	"Descriptors.h"
+	"Extraction/FaceRecognitionExtraction.h"
+	"Extraction/GoFGoPColorExtraction.h"
+
+1296682778 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Frame.h
+	<opencv2/core/core.hpp>
+	"AddressLib/vopio.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/core.hpp
+	"opencv2/core.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/version.hpp"
+	"opencv2/core/base.hpp"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/core/persistence.hpp"
+	"opencv2/opencv.hpp"
+	"opencv2/xfeatures2d.hpp"
+	"opencv2/core/operations.hpp"
+	"opencv2/core/cvstd.inl.hpp"
+	"opencv2/core/utility.hpp"
+	"opencv2/core/optim.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/cvdef.h
+	<limits.h>
+	"opencv2/core/hal/interface.h"
+	<emmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<nmmintrin.h>
+	<popcntintrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<Intrin.h>
+	"arm_neon.h"
+	<arm_neon.h>
+	<intrin.h>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/hal/interface.h
+	<cstddef>
+	<stddef.h>
+	<cstdint>
+	<stdint.h>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/version.hpp
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/base.hpp
+	<climits>
+	<algorithm>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/neon_utils.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/cvstd.hpp
+	"opencv2/core/cvdef.h"
+	<cstddef>
+	<cstring>
+	<cctype>
+	<string>
+	<algorithm>
+	<utility>
+	<cstdlib>
+	<cmath>
+	"opencv2/core/ptr.inl.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/ptr.inl.hpp
+	<algorithm>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/neon_utils.hpp
+	"opencv2/core/cvdef.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/traits.hpp
+	"opencv2/core/cvdef.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/matx.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/base.hpp"
+	"opencv2/core/traits.hpp"
+	"opencv2/core/saturate.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/saturate.hpp
+	"opencv2/core/cvdef.h"
+	"opencv2/core/fast_math.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/fast_math.hpp
+	"opencv2/core/cvdef.h"
+	<fastmath.h>
+	<cmath>
+	<math.h>
+	"tegra_round.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/types.hpp
+	<climits>
+	<cfloat>
+	<vector>
+	"opencv2/core/cvdef.h"
+	"opencv2/core/cvstd.hpp"
+	"opencv2/core/matx.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/mat.hpp
+	"opencv2/core/matx.hpp"
+	"opencv2/core/types.hpp"
+	"opencv2/core/bufferpool.hpp"
+	"opencv2/core/mat.inl.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/bufferpool.hpp
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/mat.inl.hpp
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/persistence.hpp
+	"opencv2/core/types.hpp"
+	"opencv2/core/mat.hpp"
+	"opencv2/opencv.hpp"
+	<time.h>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/opencv.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo.hpp"
+	"opencv2/video.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/objdetect.hpp"
+	"opencv2/calib3d.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/ml.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/imgproc.hpp
+	"opencv2/core.hpp"
+	<opencv2/core.hpp>
+	<opencv2/imgproc.hpp>
+	<opencv2/imgcodecs.hpp>
+	<opencv2/highgui.hpp>
+	<iostream>
+	<opencv2/imgproc.hpp>
+	<opencv2/highgui.hpp>
+	<opencv2/imgproc.hpp>
+	<opencv2/highgui.hpp>
+	<math.h>
+	<opencv2/imgproc.hpp>
+	<opencv2/highgui.hpp>
+	"opencv2/imgproc.hpp"
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/imgcodecs.hpp
+	"opencv2/core.hpp"
+	<opencv2/opencv.hpp>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/highgui.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgcodecs.hpp"
+	"opencv2/videoio.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/videoio.hpp
+	"opencv2/core.hpp"
+	"opencv2/opencv.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/highgui/highgui_c.h
+	"opencv2/core/core_c.h"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgcodecs/imgcodecs_c.h"
+	"opencv2/videoio/videoio_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/core_c.h
+	"opencv2/core/types_c.h"
+	"cxcore.h"
+	"cxcore.h"
+	"opencv2/core/utility.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/types_c.h
+	<ipl.h>
+	<ipl/ipl.h>
+	"opencv2/core/cvdef.h"
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	"opencv2/core.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/utility.hpp
+	"opencv2/core.hpp"
+	"opencv2/core/core_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/imgproc/imgproc_c.h
+	"opencv2/imgproc/types_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/imgproc/types_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/imgcodecs/imgcodecs_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/videoio/videoio_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/photo.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+	"opencv2/photo/photo_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/photo/photo_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/video.hpp
+	"opencv2/video/tracking.hpp"
+	"opencv2/video/background_segm.hpp"
+	"opencv2/video/tracking_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/video/tracking.hpp
+	"opencv2/core.hpp"
+	"opencv2/imgproc.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/video/background_segm.hpp
+	"opencv2/core.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/video/tracking_c.h
+	"opencv2/imgproc/types_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/features2d.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/miniflann.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/flann/miniflann.hpp
+	"opencv2/core.hpp"
+	"opencv2/flann/defines.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/flann/defines.h
+	"config.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/flann/config.h
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/objdetect.hpp
+	"opencv2/core.hpp"
+	"opencv2/objdetect/detection_based_tracker.hpp"
+	"opencv2/objdetect/objdetect_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/objdetect/detection_based_tracker.hpp
+	<vector>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/objdetect/objdetect_c.h
+	"opencv2/core/core_c.h"
+	<deque>
+	<vector>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/calib3d.hpp
+	"opencv2/core.hpp"
+	"opencv2/features2d.hpp"
+	"opencv2/core/affine.hpp"
+	"opencv2/calib3d/calib3d_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/affine.hpp
+	<opencv2/core.hpp>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/calib3d/calib3d_c.h
+	"opencv2/core/core_c.h"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/ml.hpp
+	"opencv2/core.hpp"
+	<float.h>
+	<map>
+	<iostream>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/operations.hpp
+	<cstdio>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/cvstd.inl.hpp
+	<complex>
+	<ostream>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/core/optim.hpp
+	"opencv2/core.hpp"
+
+1258453178 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//AddressLib/vopio.h
+	"momusys.h"
+	"address.h"
+
+1276349464 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//AddressLib/momusys.h
+
+1258194478 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//AddressLib/address.h
+
+1302633318 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors.h
+	"Descriptors/ColorSpace.h"
+	"Descriptors/ColorQuant.h"
+	"Descriptors/ColorLayout.h"
+	"Descriptors/ColorStructure.h"
+	"Descriptors/DominantColor.h"
+	"Descriptors/ScalableColor.h"
+	"Descriptors/FaceRecognition.h"
+	"Descriptors/EdgeHist.h"
+	"Descriptors/HomoTexture.h"
+	"Descriptors/ContourShape.h"
+	"Descriptors/RegionShape.h"
+
+1258127092 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/ColorSpace.h
+
+1258127560 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/ColorQuant.h
+
+1278591824 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/ColorLayout.h
+
+1277487270 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/ColorStructure.h
+
+1258135192 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/DominantColor.h
+	"ColorSpace.h"
+	"ColorQuant.h"
+
+1279210098 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/ScalableColor.h
+
+1260125160 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/FaceRecognition.h
+
+1278603858 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/EdgeHist.h
+
+1277557804 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/HomoTexture.h
+
+1258190806 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/ContourShape.h
+
+1258195370 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Descriptors/RegionShape.h
+
+1258453462 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Extraction/FaceRecognitionExtraction.h
+	"AddressLib/vopio.h"
+	"Descriptors/FaceRecognition.h"
+
+1258453472 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Extraction/GoFGoPColorExtraction.h
+	"Descriptors/ScalableColor.h"
+	"ScalableColorExtraction.h"
+	"AddressLib/vopio.h"
+
+1258453466 /home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1//Extraction/ScalableColorExtraction.h
+	"AddressLib/vopio.h"
+
+1296848088 source:/home/research/code/bilvideo7/MPEG7FexLib_OpenCV2.3.1/test/main.cpp
+	<iostream>
+	"FexWrite.h"
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/highgui/highgui.hpp
+	"opencv2/highgui.hpp"
+
+1450450936 /home/research/libs/opencv-3.1.0/include/opencv2/imgproc/imgproc.hpp
+	"opencv2/imgproc.hpp"
+
+1266660042 source:/home/research/code/bilvideo7/MPEG7FexLib/test/FexWrite.cpp
+	<iostream>
+	"FexWrite.h"
+
+1266607904 /home/research/code/bilvideo7/MPEG7FexLib/test/FexWrite.h
+	"Feature.h"
+
+1296682548 /home/research/code/bilvideo7/MPEG7FexLib//Feature.h
+	<vector>
+	"Frame.h"
+	"Descriptors.h"
+	"Extraction/FaceRecognitionExtraction.h"
+	"Extraction/GoFGoPColorExtraction.h"
+
+1296682778 /home/research/code/bilvideo7/MPEG7FexLib//Frame.h
+	<opencv2/core/core.hpp>
+	"AddressLib/vopio.h"
+
+1258453178 /home/research/code/bilvideo7/MPEG7FexLib//AddressLib/vopio.h
+	"momusys.h"
+	"address.h"
+
+1276349464 /home/research/code/bilvideo7/MPEG7FexLib//AddressLib/momusys.h
+
+1258194478 /home/research/code/bilvideo7/MPEG7FexLib//AddressLib/address.h
+
+1302633318 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors.h
+	"Descriptors/ColorSpace.h"
+	"Descriptors/ColorQuant.h"
+	"Descriptors/ColorLayout.h"
+	"Descriptors/ColorStructure.h"
+	"Descriptors/DominantColor.h"
+	"Descriptors/ScalableColor.h"
+	"Descriptors/FaceRecognition.h"
+	"Descriptors/EdgeHist.h"
+	"Descriptors/HomoTexture.h"
+	"Descriptors/ContourShape.h"
+	"Descriptors/RegionShape.h"
+
+1258127092 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/ColorSpace.h
+
+1258127560 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/ColorQuant.h
+
+1278591824 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/ColorLayout.h
+
+1277487270 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/ColorStructure.h
+
+1258135192 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/DominantColor.h
+	"ColorSpace.h"
+	"ColorQuant.h"
+
+1279210098 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/ScalableColor.h
+
+1260125160 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/FaceRecognition.h
+
+1278603858 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/EdgeHist.h
+
+1277557804 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/HomoTexture.h
+
+1258190806 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/ContourShape.h
+
+1258195370 /home/research/code/bilvideo7/MPEG7FexLib//Descriptors/RegionShape.h
+
+1258453462 /home/research/code/bilvideo7/MPEG7FexLib//Extraction/FaceRecognitionExtraction.h
+	"AddressLib/vopio.h"
+	"Descriptors/FaceRecognition.h"
+
+1258453472 /home/research/code/bilvideo7/MPEG7FexLib//Extraction/GoFGoPColorExtraction.h
+	"Descriptors/ScalableColor.h"
+	"ScalableColorExtraction.h"
+	"AddressLib/vopio.h"
+
+1258453466 /home/research/code/bilvideo7/MPEG7FexLib//Extraction/ScalableColorExtraction.h
+	"AddressLib/vopio.h"
+
+1296848088 source:/home/research/code/bilvideo7/MPEG7FexLib/test/main.cpp
+	<iostream>
+	"FexWrite.h"
+	<opencv2/highgui/highgui.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+

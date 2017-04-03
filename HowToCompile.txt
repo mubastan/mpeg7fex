@@ -1,0 +1,45 @@
+How to Compile the Library and the Test program that uses the library to extract features from images.
+
+M.Bastan, mubastan@gmail.com
+Date: 03.04.2017
+
+Steps:
+
+0. Install OpenCV 3.1.0 (I compiled the library with this release of OpenCV now).
+
+
+Compiling the Library:
+1. First open the zip archive.
+2. Open the CodeBlocks project file MPEG7FexLib.cbp
+3. Go to Project > Build options > "Search directories" tab > Compiler
+   Change the opencv include directory according to your installation.
+   On my computer it is /home/research/libs/opencv-3.1.0/include
+   On your computer it should be different
+4. Go to Project > Properties > "Build targets" tab
+    Change the output filename to MPEG7Fex.lib 
+    Since I use Linux, it is libMPEG7FexLib.a; on Windows, static libs end in .lib
+5. Compile the project. It should compile and generate the library  MPEG7Fex.lib under the lib directory
+
+Compiling the test code under the "test" directory (it uses the library to extract features from the images).
+1. Go to the "test" directory
+2. Open the CodeBlocks project file MPEG7LibTest.cbp
+3. Go to Go to Project > Properties > "Build targets" tab
+    Change the output filename to MPEG7Test.exe  (or any other name, xyz.exe your program's name)
+4. Go to Project > Build options > "Search directories" tab > Compiler
+   Change the opencv "include" directory according to your installation (as above)
+   On my computer it is /home/research/libs/opencv-3.1.0/include
+   On your computer it should be different
+
+   Change the opencv "lib" directory directory according to your installation
+   On my computer it is /home/research/libs/opencv-3.1.0/lib
+   On your computer it should be different
+  
+   go to "linker settings" tab
+   Change the link libraries according to your computer.
+   For example, change "MPEG7FexLib" to "MPEG7Fex.lib" (this is the library you compiled above)
+   For the other opencv libraries, check the opencv "lib" directory and find the correct filenames and modify them
+5. Compile the project and obtain the MPEG7Test.exe (or whatever name you gave your program above, in step 3)
+6. Run the program
+   If you run it from CodeBlocks, it will compute some of the descriptors on the 'motor.jpg' image in the test directory.
+   If you run it from the command line and give it a new image, it will work on that image:
+   MPEG7Test.exe image.jpg
