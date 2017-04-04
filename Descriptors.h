@@ -30,7 +30,7 @@
 //
 // This notice must be included in all copies or derivative works.
 //
-// modified by mb - 2008-2009
+// modified by M.Bastan, mubastan@gmail.com - 2008-2009
 ************************************************************/
 
 #ifndef __DESCRIPTORS__

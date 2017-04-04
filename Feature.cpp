@@ -1,9 +1,9 @@
 /***************************************************************
  * Name:      Feature.cpp
  * Purpose:   Extract low-level MPEG-7 descriptors
- * Author:    Muhammet Bastan (bastan@cs.bilkent.edu.tr)
+ * Author:    Muhammet Bastan (mubastan@gmail.com)
  * Created:   2008
- * Copyright: Muhammet Bastan (http://www.cs.bilkent.edu.tr/~bastan)
+ * Copyright: Muhammet Bastan (https://sites.google.com/site/mubastan/)
  * License:
  * Update: 2009-11-08
  **************************************************************/

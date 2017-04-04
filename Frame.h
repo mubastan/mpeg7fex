@@ -4,9 +4,9 @@ aim: decrease the memory allocation deallocation for each frame during video pro
 	 allocation, deallocation, setting the image is done only once and the Frame object can be
 	 used to extract all the features (color/shape/texture)
 
-author : mb
-date: 07.07.2008
-update: 02.02.2011 (upgrade to OpenCV 2.2, Mat)
+author : M.Bastan, mubastan@gmail.com
+date   : 07.07.2008
+update : 02.02.2011 (upgrade to OpenCV 2.2, Mat)
 **************************************************************/
 
 #ifndef __FRAME__H__
