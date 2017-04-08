@@ -2,7 +2,7 @@
 
 This library was adapted from MPEG-7 XM Reference Software to make it work with Open Source Computer Vision library (OpenCV) data structures (e.g., Mat). It has a very easy-to-use API. Moreover, existing bugs (resulting in wrong descriptor values) in XM software were corrected.
 
-The library was tested with OpenCV 3.1.0 on Linux Mint 18.1.
+The library was tested with OpenCV 3.1.0 on Linux Mint 18.1. The [test](test) directory contains sample code demonstrating the usage of the library. See [HowToCompile.txt](HowToCompile.txt) for instructions on how to compile the library and test code using CodeBlocks IDE.
 
 Supported MPEG-7 Descriptors:
 1. Color Structure Descriptor (CSD)
