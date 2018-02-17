@@ -1,6 +1,6 @@
 # MPEG-7 Feature Extraction Library
 
-This library was adapted from MPEG-7 XM Reference Software (the original feature extraction code is from XM Reference Software, which was developed by MPEG-7 team long time ago) to make it work with Open Source Computer Vision library (OpenCV) data structures (e.g., Mat). It has a very easy-to-use API. Moreover, some bugs (resulting in wrong descriptor values) in XM software were corrected. There might still be some bugs, so please feel free to contribute.
+This library was adapted from MPEG-7 XM Reference Software to make it work with Open Source Computer Vision library (OpenCV) data structures (e.g., Mat). It has a very easy-to-use API. The original feature extraction code is from XM Reference Software, which was developed by MPEG-7 team long time ago (the code is unfortunately quite messy). Some bugs, resulting in wrong descriptor values, were corrected. There might still be some bugs, so, please feel free to contribute.
 
 The library was tested with OpenCV 3.1.0 on Linux Mint 18.1. The [test](test) directory contains sample code demonstrating the usage of the library. See [HowToCompile.txt](HowToCompile.txt) for instructions on how to compile the library and test code using CodeBlocks IDE.
 
