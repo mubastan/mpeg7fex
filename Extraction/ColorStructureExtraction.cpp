@@ -284,7 +284,7 @@ unsigned long ColorStructureExtractionTool::extract( void )
 
 
 //----------------------------------------------------------------------------
-// source ýmage: RGB (converted to HMMD within the function)
+// source Ã½mage: RGB (converted to HMMD within the function)
 // descriptorSize: final descriptor size
 unsigned long ColorStructureExtractionTool::extract( int descriptorSize )
 {
@@ -851,7 +851,9 @@ int ColorStructureExtractionTool::UnifyBins(unsigned long Norm, int nTargSize)
 
 		m_Descriptor->SetElement(iTargBin, pBin[iTargBin]);
 	}
-
+	
+	delete[] pBin;
+	
 	return 0;
 }
 
