@@ -315,7 +315,7 @@ int mergecb(float *B,float **cb,unsigned char *P,int npt,int N,float thresh,int 
 
   if (N==1) return N;
 
-  count=(int *)malloc(sizeof(int)*N);
+  count=(int *)calloc(N, sizeof(int));
   for (l=0;l<npt;l++) count[P[l]]++;
 
   dist=(float **)fmatrix(N,N);
