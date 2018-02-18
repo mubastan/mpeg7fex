@@ -59,11 +59,12 @@ m_Quantizer(0)
 
 }
 
-
 //----------------------------------------------------------------------------
 DominantColorDescriptor::~DominantColorDescriptor()
 {
-  // will be released by the clients!
+   delete m_dc;
+   delete m_ColorSpace;
+   delete m_Quantizer;
 }
 
 
