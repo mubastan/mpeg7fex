@@ -11,6 +11,7 @@ using namespace XM;
 
 ScalableColorDescriptor::ScalableColorDescriptor():
 m_ScalableHistogram(0),
+m_Sign(0),
 m_NumberOfCoefficients(0),
 m_NumberOfBitplanesDiscarded(0)
 {
@@ -19,9 +20,8 @@ m_NumberOfBitplanesDiscarded(0)
 //----------------------------------------------------------------------------
 ScalableColorDescriptor::~ScalableColorDescriptor()
 {
-
-	if (m_ScalableHistogram) delete [] m_ScalableHistogram;
-
+   delete[] m_ScalableHistogram;
+   delete[] m_sign;
 }
 
 //----------------------------------------------------------------------------
@@ -133,7 +133,7 @@ void ScalableColorDescriptor::resetDescriptor()
 float ScalableColorDescriptor::distance(ScalableColorDescriptor* scd)
 {
     float dist = 0.0f;
-	for( int i = 0; i < m_NumberOfCoefficients; i++ )
+	for( unsigned int i = 0; i < m_NumberOfCoefficients; i++ )
 	{
 		dist += abs( m_Sign[i]*m_ScalableHistogram[i] - scd->m_Sign[i]*scd->m_ScalableHistogram[i] );
 	}
