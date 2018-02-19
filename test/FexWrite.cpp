@@ -1,9 +1,9 @@
 /***************************************************************
  * Name:      FexWrite.cpp
  * Purpose:   Code for : extract and write the descriptors according to the input parameters
- * Author:    Muhammet Bastan (bastan@cs.bilkent.edu.tr)
+ * Author:    Muhammet Bastan (mubastan@gmail.com)
  * Created:   16.06.2009
- * Copyright: Muhammet Bastan (http://www.cs.bilkent.edu.tr/~bastan)
+ * Copyright: Muhammet Bastan (https://sites.google.com/site/mubastan)
  * License:
  **************************************************************/
 
