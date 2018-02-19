@@ -5,7 +5,7 @@
  * Author:    Muhammet Bastan (mubastan@gmail.com)
  * Created:   2010-02-19
  * Update: 2011-02-04 (update to OpenCV 2.2, Mat)
- * Copyright: Muhammet Bastan (http://www.cs.bilkent.edu.tr/~bastan)
+ * Copyright: Muhammet Bastan (https://sites.google.com/site/mubastan/)
  * License:
  **************************************************************/
 
