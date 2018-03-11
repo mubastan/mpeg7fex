@@ -32,9 +32,10 @@
 //
 // Applicable File Name:  DominantColor.cpp
 //
-#include <cstdio>
+#include <stdio.h>
 #include <cstdlib>
 #include <cstring>
+#include <string>
 #include <cmath>
 #include <vector>
 #include <iostream>
@@ -42,7 +43,6 @@
 #include "DominantColor.h"
 
 using namespace XM;
-
 
 DominantColorDescriptor::DominantColorDescriptor():
 m_DominantColorsNumber(0),
@@ -54,17 +54,16 @@ m_dc(0),
 m_ColorSpace(0),
 m_Quantizer(0)
 {
-    m_ColorSpace = new ColorSpaceDescriptor();;
-    m_Quantizer = new ColorQuantizerDescriptor();
+    //m_ColorSpace = new ColorSpaceDescriptor();
+    //m_Quantizer = new ColorQuantizerDescriptor();
 
 }
+
 
 //----------------------------------------------------------------------------
 DominantColorDescriptor::~DominantColorDescriptor()
 {
-   delete m_dc;
-   delete m_ColorSpace;
-   delete m_Quantizer;
+    // m_dc will be released by the clients!
 }
 
 
@@ -236,8 +235,7 @@ ImportDDL(GenericDSInterfaceABC *aDescription)
 
 
 //----------------------------------------------------------------------------
-ColorQuantizerDescriptor * DominantColorDescriptor::
-GetColorQuantizerDescriptor(void)
+ColorQuantizerDescriptor * DominantColorDescriptor:: GetColorQuantizerDescriptor(void)
 {
   return m_Quantizer;
 }
@@ -297,10 +295,11 @@ void DominantColorDescriptor::SetDominantColorsNumber(int dc_number)
       delete [] m_dc;
     m_dc = new DOMCOL[dc_number];
 
+    m_DominantColorsNumber = dc_number;
+
 	// set values to zero - by mb - may not be crucial here since they are assigned in SetDominantColors() below (no aggregation, etc)
 	this->resetDescriptor();
 
-	m_DominantColorsNumber = dc_number;
   }
 }
 
@@ -309,7 +308,7 @@ void DominantColorDescriptor::SetSpatialCoherency(int sc)
 {
   m_SpatialCoherency = sc;
 }
-#include <iostream>
+
 //----------------------------------------------------------------------------
 void DominantColorDescriptor::SetDominantColors(int *percents, int **colors, int **variances)
 {
