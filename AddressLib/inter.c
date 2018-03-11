@@ -499,7 +499,7 @@ void inter_proc(MomVop *result, MomVop *input1, MomVop *input2,int reschannels,
       width=_i_in1width-in1posx;
       height=_i_in1height-in1posy;
     }
-    else if (_i_in1channels) {
+    else if (_i_in2channels) {
       width=_i_in2width-in1posx;
       height=_i_in2height-in1posy;
     }
