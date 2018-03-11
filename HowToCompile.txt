@@ -1,14 +1,17 @@
 How to Compile the Library and the Test program that uses the library to extract features from images, using CodeBlocks IDE.
 
 M.Bastan, mubastan@gmail.com
-Date: 03.04.2017
+Date: 03.04.2017, 11.03.2018
 
 Steps:
 
-0. Install OpenCV 3.1.0
+0. Install OpenCV 3.1.0 (or higher, anything >= 2.4 should work fine, since it only needs the Mat data structure and image loading)
 
 
 Compiling the Library:
+
+Note: On Windows, I recommend using CodeBlocks+MinGW to compile the library. If you use MSVC, then you might not get proper output (see issue #1). You should uncomment lroundf function in Extraction/imutils.c file, otherwise DCD is reported to fail with MSVC.
+
 1. Open the CodeBlocks project file MPEG7FexLib.cbp
 3. Go to Project > Build options > "Search directories" tab > Compiler
    Change the opencv include directory according to your installation.
