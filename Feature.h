@@ -180,7 +180,7 @@ gofd->end();
 // get the descriptor
 XM::ScalableColorDescriptor* scdi = gofd->scdi;
 
-//release gofd (descriptor is not released by the destructor, release it when you are done wit it)
+//release gofd (descriptor is not released by the destructor, release it when you are done with it)
 delete gofd;
 
 */
