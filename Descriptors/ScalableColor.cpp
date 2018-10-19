@@ -21,7 +21,7 @@ m_NumberOfBitplanesDiscarded(0)
 ScalableColorDescriptor::~ScalableColorDescriptor()
 {
    delete[] m_ScalableHistogram;
-   delete[] m_sign;
+   delete[] m_Sign;
 }
 
 //----------------------------------------------------------------------------
