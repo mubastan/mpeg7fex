@@ -19,6 +19,15 @@ Supported MPEG-7 Descriptors:
 See http://www.cs.bilkent.edu.tr/~bilmdg/bilvideo-7 for more details.
 
 ### Reference:
-Muhammet Bastan, Hayati Cam, Ugur Gudukbay and Ozgur Ulusoy, 
-"BilVideo-7: An MPEG-7 Compatible Video Indexing and Retrieval System", 
-IEEE MultiMedia, vol. 17, no. 3, pp. 62-73, 2010.
+```bibtex
+@article{BilVideo7,
+  author    = {Muhammet Bastan and Hayati Cam and Ugur Gudukbay and Ozgur Ulusoy},
+  title     = {{BilVideo-7: An MPEG-7 Compatible Video Indexing and Retrieval System}},
+  journal   = {IEEE MultiMedia},
+  volume    = {17},
+  number    = {3},
+  pages     = {62--73},
+  year      = {2010},
+  url       = {http://repository.bilkent.edu.tr/bitstream/handle/11693/11801/10.1109-MMUL.2010.5692184.pdf?sequence=1}
+}
+```
